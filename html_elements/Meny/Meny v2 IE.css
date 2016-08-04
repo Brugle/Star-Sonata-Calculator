@@ -1,0 +1,23 @@
+/* CSS Document */
+
+#menu ul table caption {
+	background:transparent;
+}
+#menu ul table {
+	background:transparent;
+}
+#menu ul table {
+	_azimuth: expression(this.shimmed = this.shimmed || 'shimmed:'+this.insertAdjacentHTML('beforeBegin', '<div style="background:#000; filter:alpha(opacity=60);
+ padding:0; margin:0; border:0;"></div>'), 'inherit');
+}
+#menu ul div {
+	position:absolute;
+	left:-9999px;
+	top:0;
+}
+#menu a:hover div {
+	left:expression(this.nextSibling.offsetLeft);
+	top:expression(this.nextSibling.offsetTop);
+	width:expression(this.nextSibling.offsetWidth);
+	height:expression(this.nextSibling.offsetHeight);
+}

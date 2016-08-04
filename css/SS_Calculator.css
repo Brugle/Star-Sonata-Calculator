@@ -1,0 +1,468 @@
+/*
+/*
+/*  FormatTable
+/*
+*/
+body {
+	font-size: 10px;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+
+.input-small {
+	height: 16px;
+	padding-bottom: 0px;
+	border: 1px solid #ccc;
+	border-left: 0px;
+	border-bottom: 0px;
+	color: #444;
+	font-size: 10px;
+	line-height:17px;
+	padding-left:3px;
+	width: 110px;
+	font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.Row_Disabled {
+	background-color: #CCC !important;
+	color: #888;
+}
+
+.chosen-disabled {
+	opacity: 1 !important;
+}
+.chosen-disabled a {
+	background-color: rgb(235, 235, 228) !important;
+}
+
+.ui-state-disabled {
+	background-color: rgb(235, 235, 228) !important;
+	opacity:1;
+}
+
+table.dataTable tbody td {
+	padding: 3px 10px;
+}
+.ui-widget-content {
+	background-image: none;
+	background: 0;
+}
+
+.ui-multiselect-menu {
+	background-color:white;
+	border-left:0;
+}
+.ui-multiselect-menu .ui-state-hover {
+	border:0;
+}
+.qtip-content table {
+	/*min-width: 250px;*/
+}
+.qtip-content td {
+	padding: 0px;
+	padding-left: 2px;
+	text-align: left;
+}
+.ui-button {
+	padding: 3px;
+}
+
+#Build_Viewer_Table {
+	min-width: 900px;
+}
+#Build_Viewer_Table tr {
+	height:20px !important;
+}
+#Build_Viewer_Table td {
+	padding: 5px !important;
+	border: 1px solid #ccc;
+}
+#Build_Viewer_Table tr:hover {
+	background-color: #ccc;
+}
+
+.multiselect {
+	width: 100px;
+}
+.header {
+	background-color: #2F4382;
+	color: #FFF;
+}
+.header2 {
+	background-color: #E8E8E8;
+	color: #333;
+	text-align: center;
+}
+#Ship_Information {
+	width:250px;
+}
+
+#Resistance_Table {
+	width: 250px;
+}
+
+#Temporary_Table {
+	width: 250px;
+}
+
+#Field_Generation_Table {
+	width: 250px;
+}
+
+#Permanent_Bonus_Table {
+	width: 250px;
+}
+
+#Weapons_Table {
+	width: 770px;
+}
+#Tractor_Table {
+	width: 770px;
+}
+
+#RF1199_FormatTable table tr {
+	/*height: 46px;*/
+}
+
+#RF1199_FormatTable td {
+	padding: 2px 5px 2px 0;
+}
+
+#RF1199_FormatTable td table td {
+	vertical-align: middle;
+}
+
+#RF1199_FormatTable img {
+	padding-left: 4px;
+	height: 18px;
+	width: 18px;
+}
+
+#RF1199_FormatTable select {
+	width: 300px;
+}
+
+#Build_Details_Table tr {
+	height: 18px;
+}
+
+#Build_Details_Table td {
+	vertical-align: middle;
+}
+
+#Build_Details_Table p {
+	margin-right: 10px;
+}
+#Build_Details_Table .chosen-single {
+	border-bottom:0;
+}
+#Build_Details_Table td p input:not(.chosen-search) {
+	padding-left: 8px;
+	width: 300px;
+	margin: 0;
+	border-bottom:0;
+	color: rgb(68, 68, 68);
+}
+#Build_Details_Table .chosen-search input {
+	border-bottom:1px solid #ccc !important;
+}
+#Build_Details_Table .ui-multiselect {
+	border-radius:0;
+	border-bottom:0;
+	border-left:0;
+}
+#Build_Details_Table td:first-child { 
+	width: 16px;
+	background-color: #2F4382;
+	padding-top: 2px;
+	padding-left: 2px;
+	border-bottom: 1px solid white;
+}
+
+#Build_Details_Table p {
+	position: relative;
+	margin: 0;
+}
+
+#Build_Table td {
+	padding: 2px 5px 2px 0;
+}
+
+#Build_Table td table td {
+	vertical-align: middle;
+}
+
+#Build_Table img {
+	padding-left: 4px;
+	height: 18px;
+	width: 18px;
+}
+
+#Build_Table select {
+	width: 300px;
+}
+
+.Ship_Window {
+	width: 780px;
+	float: right;
+	border: 0 solid #ccc;
+}
+
+.Ship_Window td {
+	border:1px solid #DDDDDD;
+	padding: 3px;
+}
+
+.Ship_Window td:hover {
+	background-color: #CCC;
+}
+
+.Ship_Window tr {
+	min-height: 20px;
+}
+
+.Ship_Window table {
+	margin: 5px;
+}
+
+
+/*
+/*
+/*  FormatTable - Skill table
+/*
+*/
+
+.Skilltable input {
+	width: 25px;
+	text-align: center;
+}
+.Skilltable label {
+	width: 200px;
+	margin: 0;
+}
+.Skilltable tr {
+	height: 25px !important;
+}
+
+/*
+/*
+/*	Fade in - out
+/*
+*/
+@-webkit-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #6BB957; }
+  100% { background-color: #FFFFFF; }
+}
+@-moz-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #6BB957; }
+  100% { background-color: #FFFFFF; }
+}
+@-o-keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #6BB957; }
+  100% { background-color: #FFFFFF; }
+}
+@keyframes fadeIt {
+  0%   { background-color: #FFFFFF; }
+  50%  { background-color: #6BB957; }
+  100% { background-color: #FFFFFF; }
+}
+
+.backgroundAnimated{    
+	animation: fadeIt 5s ease-in-out !important; 
+}
+/*
+/*
+/*  Tooltip
+/*
+*/
+
+.TooltiptdStyle {
+	background: #123456;
+	color: #FEDCBA;
+	text-align: left;
+	border-radius: 4px;
+	border: 2px solid white;
+	width: 400px;
+}
+
+a {
+	color: #08C;
+	text-decoration: none;
+}
+
+a:hover,
+.active a {
+	color: #005580;
+	text-decoration: underline;
+}
+
+.noPadd td {
+	padding: 0 !important;
+}
+
+div #SuggestionsTable {
+	width: 500px;
+	margin: 20px 0;
+}
+
+div #SuggestionsTable table {
+	margin: 1em 0;
+	border-collapse: collapse;
+	width: 100%;
+}
+
+div #SuggestionsTable table td, div #SuggestionsTable table th {
+	border: 1px solid #eee;
+	padding: .6em 10px;
+	text-align: left;
+}
+
+div #SuggestionsTable table tbody tr:hover {
+	text-decoration: underline;
+	background-color: #ccc;
+	cursor: pointer;
+}
+
+div #SuggestionsTable table tr {
+	height: 20px;
+}
+
+img {
+	border: 0;
+}
+
+.nav-collapse,
+ul.nav,
+ul.nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.navbar .brand {
+	font-size: 16px;
+}
+
+.row {
+	zoom: 1;
+}
+
+.row:before, .row:after {
+	display: table;
+	content: "";
+}
+
+.row:after {
+	clear: both;
+}
+
+.span5 {
+	width: 400px;
+	float: left;
+}
+
+.span7 {
+	width: 100%;
+	float: left;
+}
+
+
+/*-----------------------------------------------------------------------------------*/
+/*	My CSS
+/*-----------------------------------------------------------------------------------*/
+form p label.inField {
+	position: absolute;
+	top: 0;
+	left: 0
+}
+
+form legend {
+	color: #333;
+	padding: 0 0 20px 0;
+	text-transform: uppercase;
+}
+
+form {
+    /*padding: 0 20px 20px 20px;*/
+}
+
+form p {
+	position: relative;
+	margin: 2px 0;
+}
+
+form p br {
+	display: none;
+}
+
+.formErrorContent br {
+	display: inline;
+}
+
+#agreement label {
+	width: auto !important;
+	padding: 0px !important;
+}
+
+#formID fieldset table tr {
+	/*height: 76px;*/
+}
+
+form fieldset p input,
+form fieldset p textarea {
+	width: 298px;
+	margin: 0;
+	height: 14px;
+	padding-left: 10px;
+	font-size: 10px;
+	font-family: verdana, helvetica, arial, sans-serif;
+}
+
+form fieldset p label.inField {
+	width: 400px;
+	display: block;
+	margin: 7px 5px 5px 6px;
+	padding: 0;
+}
+
+form fieldset p label.outField {
+	width: 400px;
+	display: block;
+	margin: 6px 5px 0px 0px;
+	padding: 0;
+}
+
+/*
+form p label.outField {
+	position: absolute;
+	top: -20px;
+	left: 0;
+}
+*/
+form fieldset label {
+	margin-left: 5px;
+	color: #777;
+}
+
+form fieldset p textarea {
+	padding: 2px;
+	width: 404px;
+}
+
+form fieldset p textarea,
+form fieldset p input {
+	border: solid 1px #ccc;
+}
+
+form fieldset p label {
+	color: #777;
+}
+
+#FormFeedback {
+	margin: 20px 0;
+	padding: 0.7em;
+	width: 415px;
+	float: left;
+	font-size: 15px;
+}

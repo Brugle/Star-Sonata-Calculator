@@ -1,0 +1,575 @@
+/* ================================================================ 
+This copyright notice must be kept untouched in the stylesheet at 
+all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/menus/drop-table.html
+Copyright (c) 2005-2009 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+#menu {
+    width:100%;
+    height:36px;
+    /*text-align:center;*/
+    position:absolute;
+    top:0;
+    background-color:#2F4382;
+    border:0px #b2aa9f solid;
+    border-top:0px;
+    z-index:9000;
+    /* filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#4a5861', endColorstr='#384852');*/
+}
+#menu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    white-space:normal;
+    text-align:left;
+}
+#menu ul {
+    display:inline-block;
+}
+#menu ul {
+    display:inline;
+}
+#menu #table {
+    display:table;
+    margin-left:200px;
+}
+#menu #table ul {
+    display:table-row;
+}
+#menu li {
+    margin:0;
+    padding:0;
+}
+#menu li {
+    margin-right:0px;
+}
+#menu ul table {
+    position:absolute;
+    left:-9999px;
+    width:100%;
+    width:800px;
+    z-index: 1001;
+    font-family:verdana, arial, sans-serif;
+    background-color:#2F4382;
+}
+#menu ul table td {
+    vertical-align:top;
+    padding:3px;
+    margin:0;
+    color:#FFF;
+}
+#menu input[type="submit"] {
+    height: 36px;
+    min-width: 100px;
+}
+#menu ul table td.border {
+    /*border-right:1px dashed #fff;*/
+}
+#menu ul table td img {
+    padding:0;
+    display:inline;
+    margin:0;
+    border:0px solid #fff;
+}
+#menu ul table td.image {
+
+}
+#menu ul table th {
+    padding:4px 0 4px 10px;
+    text-align:center !important;
+    margin:0;
+    color:#fc0;
+    font-size:11px;
+    text-align:left;
+}
+#menu ul table caption {
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+    padding:5px 0;
+    margin:0;
+    background-color:#2F4382;
+    border-top:solid 2px #FFF;
+}
+#menu ul table tfoot td {
+    font-size:10px;
+    color:#ff0;
+    padding-left:10px;
+}
+#menu ul.level1 li.level1-li {
+    float:left;
+    display:block;
+}
+#menu ul table td p {
+    line-height:16px;
+    font-size:11px;
+    color:#fff;
+    white-space:normal;
+    margin:0;
+    padding:0 5px;
+}
+#menu ul table td p a {
+    padding:0;
+    margin:0;
+    font-weight:bold;
+    color:#fc0;
+}
+#menu a {
+    display:block;
+    font:normal 11px verdana, arial, sans-serif;
+    color:#fff;
+    line-height:36px;
+    text-decoration:none;
+}
+#menu ul.level1 li.level1-li a.level1-a {
+    float:left;
+    padding:0 25px 0 25px;/*	background: url(anywidth/tab4a.gif) no-repeat right top;*/
+}
+#menu ul.level1 li.level1-li a.level1-a b {
+    float:left;
+    padding:0 0 0 0px;
+    /*	background: url(anywidth/tab4.gif) no-repeat left top;*/
+    cursor:pointer;
+}
+#menu ul li:hover table {
+    visibility:visible;
+    left:0;
+    top:36px;
+}
+#menu a:hover table {
+    left:0;
+    top:36px;
+}
+#menu ul.level1 li.level1-li a.drop {
+    /*	background: url(anywidth/tab4a-arrow.gif) no-repeat right top;*/
+}
+#menu ul.level1 li.level1-li a.level1-a:hover {
+    background-position:right bottom;
+    color:#000
+}
+#menu ul.level1 li.level1-li a.level1-a:hover b {
+    background-position:left bottom;
+}
+#menu ul.level1 li.level1-li:hover > a {
+    background-position:right bottom;
+    color:#FFFFFF;
+    background-color:rgb(46, 106, 170);
+}
+#menu ul.level1 li.level1-li:hover > a > b {
+    background-position:left bottom;
+}
+#menu ul table td a {
+    line-height:18px;
+    padding:0 0 0 10px;
+}
+#menu ul table a:hover {
+    background:transparent;
+    text-decoration:underline;
+}
+#menu ul table a:hover img {
+    border:0px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+#menu .menuLeft {
+    border-left:1px solid #CCC;
+}
+#menu .menuRight {
+    border-right:1px solid #CCC;
+}
+/* Behandler informasjon i hovedmenyen */
+
+.behandler_container {
+    margin-left: auto !important;
+}
+.behandler_wrap {
+    float:left !important;
+    width:300px !important;
+    height: 65px !important;
+    margin-left: 20px;
+}
+.behandler_wrap img {
+    float:left !important;
+    width: 35px !important;
+    margin: 5px !important;
+    border:1px solid #000 !important;
+}
+.behandler_tittel {
+    float:left !important;
+    width: 180px !important;
+    font-weight:100 !important;
+    font-size: 11px !important;
+}
+.behandler_navn {
+    float:left !important;
+    clear: right !important;
+    width: 220px !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #c0cd7b !important;
+}
+.behandler_wrap a {
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    text-decoration:none !important;
+    color:#FFF !important;
+}
+.behandler_wrap a:hover {
+    text-decoration:none !important;
+    background-color:#576873 !important;
+    color:#FFF !important;
+    border-radius: 5px !important;
+}
+.list_container {
+    width: 1000px;
+    margin-left: auto !important;
+}
+.list_wrap {
+    float:left !important;
+    width:300px  !important;
+    min-height: 50px !important;
+    margin-left: 20px;
+}
+.list_wrap_kontaktoss {
+    float:left !important;
+    width:300px  !important;
+    min-height: 62px !important;
+    margin-left: 20px;
+}
+.list_wrap_sporsmal {
+    float:left !important;
+    width:900px !important;
+    min-height: 75px !important;
+    margin-left: 20px;
+}
+.list_wrap img {
+    float:left !important;
+    width: 70px !important;
+    margin: 5px !important;
+    border:1px solid #000 !important;
+}
+.list_wrap a {
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    text-decoration:none !important;
+    color:#FFF !important;
+    float:left;
+}
+.list_wrap a:hover {
+    text-decoration:none !important;
+    background-color:#576873 !important;
+    color:#FFF !important;
+    border-radius: 5px !important;
+}
+.list_wrap_kontaktoss a {
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    text-decoration:none !important;
+    color:#FFF !important;
+    float:left;
+    min-height: 62px !important;
+}
+.list_wrap_kontaktoss a:hover {
+    text-decoration:none !important;
+    background-color:#576873 !important;
+    color:#FFF !important;
+    border-radius: 5px !important;
+    min-height: 62px !important;
+}
+.list_wrap_sporsmal a {
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    text-decoration:none !important;
+    color:#FFF !important;
+    float:left;
+    min-height: 62px !important;
+}
+.list_wrap_sporsmal a:hover {
+    text-decoration:none !important;
+    background-color:#576873 !important;
+    color:#FFF !important;
+    border-radius: 5px !important;
+    min-height: 62px !important;
+}
+.list_navn {
+    float:left !important;
+    clear: right !important;
+    width: 218px !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #c0cd7b !important;
+}
+.list_navn_sporsmal {
+    float:left !important;
+    clear: right !important;
+    width: 350px !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #c0cd7b !important;
+}
+.list_tittel_sporsmal {
+    float:left !important;
+    clear: right !important;
+    width: 550px !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: white !important;
+}
+.list_undertittel {
+    float:left !important;
+    width: 218px;
+    font-weight:100 !important;
+}
+.list_kontaktoss {
+    float:left !important;
+    width: 218px;
+    font-weight:100 !important;
+    line-height:17px;
+    margin-bottom:5px;
+}
+.list_sporsmal {
+    float:left !important;
+    width: 900px;
+    font-weight:100 !important;
+    line-height:17px;
+    margin-bottom:5px;
+}
+/*
+/*  Submenu CSS
+/*
+/*
+/*
+/*
+/*
+*/
+#Module_Name {
+    width:250px;
+}
+#submenu {
+    width: 100%;
+    height: 36px;
+    /*text-align: center;*/
+    position: absolute;
+    top: 36px;
+    background-color: #506099;
+    border-top: 1px solid white;
+    left:0px;
+    overflow:hidden;
+}
+#submenu ul {
+    margin:0;
+    padding:0;
+    list-style:none;
+    white-space:normal;
+    text-align:left;
+}
+#submenu ul {
+    display:inline-block;
+}
+#submenu ul {
+    display:inline;
+}
+#submenu #subtable {
+    display:table;
+}
+#submenu #subtable ul {
+    display:table-row;
+}
+#submenu li {
+    margin:0;
+    padding:0;
+}
+#submenu li {
+    margin-right:0px;
+}
+#submenu ul table {
+    position:absolute;
+    left:-9999px;
+    width:100%;
+    z-index: 1001;
+    font-family:verdana, arial, sans-serif;
+    background-color:#2F4382;
+}
+#submenu ul table td {
+    vertical-align:top;
+    padding:3px;
+    margin:0;
+    color:#FFF;
+}
+#submenu input[type="submit"] {
+    height: 36px;
+    min-width: 100px;
+}
+#submenu ul table td.border {
+    /*border-right:1px dashed #fff;*/
+}
+#submenu ul table td img {
+    padding:0;
+    display:inline;
+    margin:0;
+    border:0px solid #fff;
+}
+#submenu ul table td.image {
+
+}
+#submenu ul table th {
+    padding:4px 0 4px 10px;
+    text-align:center !important;
+    margin:0;
+    color:#fc0;
+    font-size:11px;
+    text-align:left;
+}
+#submenu ul table caption {
+    font-size:14px;
+    color:#fff;
+    font-weight:bold;
+    padding:5px 0;
+    margin:0;
+    background-color:#2F4382;
+    border-top:solid 2px #FFF;
+}
+#submenu ul table tfoot td {
+    font-size:10px;
+    color:#ff0;
+    padding-left:10px;
+}
+#submenu ul.level1 li.level1-li {
+    float:left;
+    display:block;
+}
+#submenu ul table td p {
+    line-height:16px;
+    font-size:11px;
+    color:#fff;
+    white-space:normal;
+    margin:0;
+    padding:0 5px;
+}
+#submenu ul table td p a {
+    padding:0;
+    margin:0;
+    font-weight:bold;
+    color:#fc0;
+}
+#submenu a {
+    display:block;
+    font:normal 11px verdana, arial, sans-serif;
+    color:#fff;
+    line-height:36px;
+    text-decoration:none;
+}
+#submenu ul.level1 li.level1-li a.level1-a {
+    float:left;
+    padding:0 25px 0 25px;/*	background: url(anywidth/tab4a.gif) no-repeat right top;*/
+}
+#submenu ul.level1 li.level1-li a.level1-a b {
+    float:left;
+    padding:0 0 0 0px;
+    /*	background: url(anywidth/tab4.gif) no-repeat left top;*/
+    cursor:pointer;
+}
+#submenu ul li:hover table {
+    visibility:visible;
+    left:0;
+    top:36px;
+}
+#submenu a:hover table {
+    left:0;
+    top:36px;
+}
+#submenu ul.level1 li.level1-li a.drop {
+    /*	background: url(anywidth/tab4a-arrow.gif) no-repeat right top;*/
+}
+#submenu ul.level1 li.level1-li a.level1-a:hover {
+    background-position:right bottom;
+    color:#000
+}
+#submenu ul.level1 li.level1-li a.level1-a:hover b {
+    background-position:left bottom;
+}
+#submenu ul.level1 li.level1-li:hover > a {
+    background-position:right bottom;
+    color:#FFFFFF;
+    background-color:rgb(46, 106, 170);
+}
+#submenu ul.level1 li.level1-li:hover > a > b {
+    background-position:left bottom;
+}
+#submenu ul table td a {
+    line-height:18px;
+    padding:0 0 0 10px;
+}
+#submenu ul table a:hover {
+    background:transparent;
+    text-decoration:underline;
+}
+#submenu ul table a:hover img {
+    border:0px solid #fff;
+    border-radius: 5px 5px 5px 5px;
+}
+#submenu .menuLeft {
+    border-left:1px solid #CCC;
+}
+#submenu .menuRight {
+    border-right:1px solid #CCC;
+}
+/* Behandler informasjon i hovedmenyen */
+
+.behandler_container {
+    margin-left: auto !important;
+}
+.behandler_wrap {
+    float:left !important;
+    width:300px !important;
+    height: 65px !important;
+    margin-left: 20px;
+}
+.behandler_wrap img {
+    float:left !important;
+    width: 35px !important;
+    margin: 5px !important;
+    border:1px solid #000 !important;
+}
+.behandler_tittel {
+    float:left !important;
+    width: 180px !important;
+    font-weight:100 !important;
+    font-size: 11px !important;
+}
+.behandler_navn {
+    float:left !important;
+    clear: right !important;
+    width: 220px !important;
+    margin: 5px 0 0 0 !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #c0cd7b !important;
+}
+.behandler_wrap a {
+    display:block !important;
+    width:100% !important;
+    height:100% !important;
+    text-decoration:none !important;
+    color:#FFF !important;
+}
+.behandler_wrap a:hover {
+    text-decoration:none !important;
+    background-color:#576873 !important;
+    color:#FFF !important;
+    border-radius: 5px !important;
+}
+.active {
+    background-color: #2F4382;
+}

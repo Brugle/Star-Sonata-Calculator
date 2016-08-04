@@ -1,0 +1,53 @@
+/*
+
+For TaxOrganizer
+
+*/
+
+#TaxOrganizer h1 {
+    text-align:center;
+}
+#TaxOrganizer #taxTable {
+    width:600px;
+    text-align: left;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+#TaxOrganizer #taxTable td {
+    vertical-align: middle;
+    min-height:35px;
+}
+#TaxOrganizer #taxTable tr {
+    border:none;
+}
+#TaxOrganizer .LeftHeader {
+    background-color: #E0E6FA;
+    padding: 10px;
+    border:1px solid lightgrey;
+    width:300px;
+}
+#TaxOrganizer .RightHeader {
+    border:none;
+    padding:2px;
+}
+#TaxOrganizer input {
+    height:31px;
+    width:400px;
+    padding-left:4px;
+}
+#TaxOrganizer #LonnOgTrekk {
+    border:1px solid black;
+}
+#TaxOrganizer h2 {
+    font-family: Arial, Verdana, sans-serif, Myuen, Gulim;
+    color: #333;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 1em;
+    margin-top: 0.5em;
+    clear: left;
+}
+#TaxOrganizer .ui-buttonset {
+    text-align: left;
+}
